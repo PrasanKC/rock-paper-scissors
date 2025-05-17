@@ -1,0 +1,52 @@
+.buttons {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.buttons img {
+  width: 90px;
+}
+
+.buttons button {
+  background-color: rgb(136, 4, 4);
+  border: none;
+  border-color: white;
+  border-radius: 100%;
+  padding: 25px;
+  margin: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.15s, opacity 0.1s;
+}
+
+.buttons button:hover {
+  box-shadow: none;
+}
+
+.buttons button:active {
+  opacity: 0.75;
+}
+
+.reset-score button {
+  background-color: rgb(17, 141, 58);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.15s, opacity 0.1s;
+}
+
+.reset-score button:hover {
+  box-shadow: none;
+}
+
+.reset-score button:active {
+  opacity: 0.75;
+}

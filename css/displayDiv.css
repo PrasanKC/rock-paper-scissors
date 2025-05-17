@@ -1,0 +1,37 @@
+.displayDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 5px;
+}
+
+.displayDiv img {
+  width: 40px;
+}
+
+.js-moves {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding: 2px 15px;
+}
+
+.moveDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textDisplay {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.js-display {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 5px 15px;
+}
